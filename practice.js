@@ -356,7 +356,7 @@ objects until you find Tyler's account (use tylermcginnis33@gmail.com to find hi
 Once you find the particular indice he's located in, delete him from the array.*/
 
   for (var i = 0; i < user.length; i++) {
-    if (user[i].email === 'tylermcginnis33@gmail.com') { // you need to compare user at index i and there email just like you use user1.email you use user[i].email and then compare it to the strings. 
+    if (user[i].email === 'tylermcginnis33@gmail.com') { // you need to compare user at index i and their email just like you use user1.email you use user[i].email and then compare it to the strings. 
    user.splice(i, 1); // you could also do this delete user[i]
 }
   };
